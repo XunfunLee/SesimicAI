@@ -3,6 +3,12 @@ const app = Vue.createApp({
 		return {
 			title: "i am vue title"
 		}
+	},
+	methods: {
+		changeTitle() {
+			console.log("change title")
+			this.title = "i am new title with function"
+		}
 	}
 })
 

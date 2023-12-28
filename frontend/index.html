@@ -10,7 +10,14 @@
     <h1> hello vue </h1>
 
     <div id="app">
-        <p> {{ title }} </p>
+        <div> 
+            <p> {{ title }} </p>
+        </div>
+
+        <button v-on:click="changeTitle">
+            change title
+        </button>
+
     </div>
     <script src="app.js"></script>
 
